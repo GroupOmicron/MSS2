@@ -12,10 +12,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/logoView"
         android:contentDescription="@string/logo_description"
-        android:src="@drawable/uta_logo2"
+        android:src="@drawable/oie_transparent"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:cropToPadding="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
 
     <TextView
         android:layout_width="wrap_content"
